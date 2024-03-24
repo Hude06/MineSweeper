@@ -57,7 +57,7 @@ class Bomb {
         this.h = squareSize-10
     }
     draw() {
-        ctx.fillStyle = "black"
+        ctx.fillStyle = ""
         ctx.fillRect((this.x*squareSize+1)+3,(this.y*squareSize)+3,this.w,this.h)
     }
 }
