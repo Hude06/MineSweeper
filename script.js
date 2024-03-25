@@ -42,7 +42,7 @@ class Square {
 
         if (this.numVisable === false) {
             ctx.fillStyle = "black";
-            ctx.fillRect(this.x * squareSize + 1, this.y * squareSize + 1, this.w, this.h);
+            ctx.fillRect(this.x * squareSize + 5, this.y * squareSize + 5, this.w, this.h);
         } else {
             ctx.font = "50px Georgia";
             ctx.fillText(this.number, this.x * squareSize + 17, this.y * squareSize + 41);
